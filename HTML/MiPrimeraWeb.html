@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera Web</title>
+</head>
+<body>
+
+    <!-- 
+        Crear listas: 
+        - ul es lista no ordenada 
+    -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol>
+
+    <!-- Etiqueta para crear un campos en la pagina -->
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido" />
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="Escribir comentario" name="comentario"></textarea>
+        <br>
+        <!-- <input type="submit"> -->
+        <button type="button">Boton</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Tipos de encabezados -->
+    <h1>Mi primer Heading</h1>
+    <h2>Mi segundo Heading</h2>
+    <h3>Mi tercer Heading</h3>
+    <h4>Mi cuarto Heading</h4>
+    <h5>Mi quinto Heading</h5>
+    <h6>Mi sexto Heading</h6>
+
+    <!-- Escribir texto -->
+    <p>Texto de prueba de parrafo</p>
+    <p>de mi primera página web</p>
+
+    <!-- Separación -->
+    <hr>
+
+    <h2>Heading 2</h2>
+    <p>
+        Esto es un texto explicativo sobre cómo se ha creado los <br>
+        Heading dentro de la web, el código usado son etiquetas h.
+    </p>
+    
+    <!-- Redirrecionar a otros sitios, si añadimos target="_blank" lo abre en otra pestaña -->
+    <a target="_blank" href="https://www.google.es">Ir a Google</a>
+
+    <br>
+    
+    <!-- Mostrar imágenes -->
+    <img src="img/coffe.png" width="400" />
+    
+</body> 
+</html>
