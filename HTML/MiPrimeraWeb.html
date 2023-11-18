@@ -2,8 +2,41 @@
 <html>
 <head>
     <title>Mi primera Web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
+
+    <!-- Crear tablas -->
+    <table style="width: 200px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Curso html</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Curso css</td>
+                <td>10€</td>
+            </tr>
+            <tr>
+                <td>Curso c++</td>
+                <td>10€</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 20€</td>
+        </tfoot>
+    </table>
 
     <!-- 
         Crear listas: 
@@ -16,11 +49,22 @@
         <li>Elemento 4</li>
     </ul>
 
+    <!-- 
+        Crear listas: 
+        - ul es lista ordenada 
+    -->
     <ol>
-        <li>Elemento 1</li>
+        <li value="50">Elemento 1</li>
         <li>Elemento 2</li>
         <li>Elemento 3</li>
         <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">sub elemento 1</li>
+                <li style="list-style-type: lower-roman;">sub elemento 2</li>
+                <li style="list-style-type: lower-roman;">sub elemento 3</li>
+            </ol>
+        </li>
     </ol>
 
     <!-- Etiqueta para crear un campos en la pagina -->
