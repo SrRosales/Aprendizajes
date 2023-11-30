@@ -1,0 +1,89 @@
+
+
+/*Selector de id titulo*/
+#titulo{
+    color: coral;
+}
+
+/*Selector de la clase especial*/
+p.especial{
+    color: darkgreen;
+}
+
+/*Selector de la clase texto*/
+p.texto{
+    color: blueviolet;
+}
+
+/*Selector del objeto div etiqueta p*/
+div p {
+    color: darkseagreen;
+}
+
+/*Selector del objeto div etiquetas h2 y h3*/
+div h2, div h3{
+    color: blue;
+}
+
+/*Selector universal*/
+* {
+    font-size: 24px;
+   /*  color: black; */
+}
+
+/*Selector añadir borde*/
+.color{
+    /* border: 5px black solid; */
+    border-style: solid;
+    border-color: bisque;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+/*Selector añadir background*/
+#fondo{
+    background-color: beige;
+    height: 400px;
+    /*opacity: 0.3; */
+    background: #f00 url('coffe.png') repeat-y center bottom / 100px 100px;
+
+}
+
+/*Selector añadir margen*/
+.margen{
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px 15px;
+    border: solid 2px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blue;
+}
+
+/*Selector de enlace no visitado*/
+a:link{
+    color: blueviolet;
+}
+
+/*Selector de enlace visitado*/
+a:visited{
+    color: grey;
+}
+
+/*Selector de enlace cuando posiciono el raton encima*/
+a:hover{
+    color: yellow;
+}
+
+/*Selector de enlace cuando pincho el raton encima*/
+a:active{
+    color: red;
+}
