@@ -87,3 +87,81 @@ a:hover{
 a:active{
     color: red;
 }
+
+/*Selector de lista*/
+ul{
+    background-color: cyan;
+    /* list-style-type: none;
+    padding-left: 0%; */
+}
+
+/*Selector de tabla*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/*Selector de filas y columnas de tabla*/
+th, td{
+    border: solid 1px;
+    padding: 5px;
+    text-align: center;
+}
+
+/*Editar titulos*/
+th{
+    background-color: coral;
+    color: white;
+    text-align: center;
+}
+
+/*Ponerle background a las filas pares*/
+tr:nth-child(even){
+    background-color: aliceblue;
+}
+
+/*Poner color coral de Background cuando seleccione una fila*/
+tr:hover{
+    background-color: coral;
+    cursor: pointer;
+}
+
+span{
+    display: block;
+    max-width: 300px;
+    background-color: antiquewhite;
+}
+
+.inline{
+    display: inline;
+}
+
+/*Ajustar posicion*/
+#position{
+    position: sticky;
+    left: 20px;
+    top: 25px;
+}
+
+.left{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.right{
+    float: right;
+}
+
+.container{
+    height: 200px;
+}
+
+/*Centrar objeto*/
+.center{
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
