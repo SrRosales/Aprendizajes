@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotApp</title>
+</head>
+<body>
+
+    <!-- Paso 59: Agrega un head -->
+    <head>
+        <!-- Paso 60: Añade un elemento title -->
+        <title>
+            CatPhotoApp
+        </title>
+    </head>
+
+    <!-- Paso 5: Encapsular en main la sección principal -->
+    <!-- Paso 13: Anida en un sections los elementos h2, p y a-->
+    <main>
+        <!-- Paso 1: Titulo de la web con etiqueta h1 -->
+        <h1>CatPhotoApp</h1>
+
+        <section>
+            <!-- Paso 2: Añadir un encabezado h2 debajo de h1 -->
+            <h2>Cat Photos</h2>
+
+            <!-- Pase 3: Crear un párrafo -->
+            <!-- Paso 4: Añadir un comentario  -->
+            <!-- TODO: Add link to cat photos -->
+            <!-- Paso 10: Convierte una palabra en un enlace -->
+            <!-- Paso 11: Alade un atributo target con el parámetro _blank -->
+            <p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos </a>in our gallery</p>
+
+            <!-- Paso 8: Agregar un elemento enlace despues del párrafo:
+                Paso 9: Agregar un texto al enlace:
+            <a href="https://freecatphotoapp.com">link to cat pictures</a> -->
+
+            <!-- Paso 6: Añadir un elemento imagen con img -->
+            <!-- Paso 7: Añadir un alt al elemento img -->
+            <!-- Paso 12: Convierte la imagen en un enlace tambien -->
+            <a href="https://freecatphotoapp.com"><img src="img/relaxing-cat.jpg" alt="A cute orange cat lying on its back"></a>
+        </section>
+
+        <!-- Paso 14: Crea un nuevo section -->
+        <section>
+            <!-- Paso 15: Añade un h2 -->
+            <h2>Cat Lists</h2>
+
+            <!-- Paso 16: Añade un h3 -->
+            <h3>Things cats love:</h3>
+
+            <!-- Paso 17: Añade una lista desordenada con ul -->
+            <ul>
+                <!-- Paso 18: Añade elemntos con li -->
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+
+            <!-- Paso 19: Añade una imagen con src y alt -->
+            <!-- Paso 20: Anidar la imagen en un figure -->
+            <figure>
+                <img src="img/lasagna.jpg" alt="A slice of lasagna on a plate.">
+            
+                <!-- Paso 21: Añade una descripción con figcaption -->
+                <!-- Paso 22: Enfatizar la palabra love con em -->
+                <figcaption>Cats <em>love</em> lasagna</figcaption>
+            </figure>
+
+            <!-- Paso 22: Añade otro h3 -->
+            <h3>Top 3 things cats hate:</h3>
+
+            <!-- Paso 23: Añade una lista ordenada con ol -->
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder </li>
+                <li>other cats</li>
+            </ol>
+
+            <!-- Paso 24: Añade un figure -->
+            <figure>
+                <!-- Paso 25: Añade una imagen con src y alt -->
+                <img src="img/cats.jpg" alt="Five cats looking around a field">
+            
+                <!-- Paso 26: Añade un figcaption -->
+                <!-- Paso 27: Remarca en negrita la palabra hate -->
+                <figcaption> Cats <strong>hate</strong> other cats.</figcaption>
+            </figure>
+        </section>
+
+        <!-- Paso 28: Añade otro nuevo section -->
+        <section>
+            <!-- Paso 29: Añade un h2 -->
+            <h2>Cat Form</h2>
+
+            <!-- Paso 30: Añade un formulario con form -->
+            <!-- Paso 31: Añade un action para almacenar los datos -->
+            <form action="https://freecatphotoapp.com/submit-cat-photo">
+
+                <!-- Paso 38: Crea un radio buttom -->
+                <!-- Paso 39: Anida tu radio button -->
+                <!-- Paso 40: Añade un id al radio button -->
+                <!-- Paso 44: Anida ambos radio button con fieldset -->
+                <!-- Paso 55: Haz que el primer radio button y checkbox esten seleccionado por defecto -->
+                <fieldset>
+
+                    <!-- Paso 45: Añade una leyenda con la etiqueta legend -->
+                    <legend>Is your cat an indoor or outdoor cat?</legend>
+
+                    <label>
+                        <input type="radio" id="indoor" name="indoor-outdoor" value="indoor" checked> Indoor
+                    </label>
+    
+                    <!-- Paso 41: Crea otro radio button igual al de arriba pero llamado outdoor -->
+                    <!-- Paso 42: Añadir un name a cada radio button del mismo nombre -->
+                    <!-- Paso 43: Añade un value a ambos radio buttom -->
+                    <label>
+                        <input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor"> Outdoor 
+                    </label>
+                </fieldset>
+
+                <!-- Paso 46: Añade otro elemento fieldset -->
+                <fieldset>
+                    <!-- Paso 47: Añade una leyenda -->
+                    <legend>What's your cat's personality?</legend>
+
+                    <!-- Paso 48: Añade un input de tipo checkbox con opcion loving -->
+                    <!-- Paso 49: Añade un id -->
+                    <!-- Paso 50: Asocia la palabra Loving con un label al input -->
+                    <!-- Paso 51: Añade un name al input de tipo personality -->
+                    <!-- Paso 54: Añade a cada checkbox su value correspondiente -->
+                    <input type="checkbox" id="loving" name="personality" value="loving" checked> <label for="loving"> Loving</label>
+
+                    <!-- Paso 52: Añade otro checkbox Lazy -->
+                    <input type="checkbox" id="lazy" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+                
+                    <!-- Paso 53: Añade otro checkbox Energetic -->
+                    <input type="checkbox" id="energetic" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+                
+                </fieldset>
+
+                <!-- Paso 31: Añade un input -->
+                <!-- Paso 32: Añade un type de tipo texto -->
+                <!-- Paso 33: Añade un campo de texto con name -->
+                <!-- Paso 34: Añade un texto provisional con placeholder -->
+                <!-- Paso 35: Añade un required para obligar que se rellene el campo -->
+                <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+
+                <!-- Paso 36: Añade un elemento button -->
+                <!-- Paso 37: Añade un type de submit para asegurar que envie el formulario -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Paso 56: Añadir un pie de página -->
+    <footer>
+        <!-- Paso 57: Añade un texto -->
+        <!-- Paso 58: Convierte en enlace una parte del texto -->
+        <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+    </footer>
+
+</body>
+</html>
