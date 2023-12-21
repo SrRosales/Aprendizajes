@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Paso 12: Añadiendo esta linea meta para que se vea similiar en varios dispositivos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Paso 1: Añadir un titulo a la web -->
+    <title>Cafe Menu</title>
+
+    <!-- Paso 7: Crear un elemento Style -->
+    <!-- Paso 8: Centra el texto del h1 -->
+    <!-- Paso 9: Centra h2 y p con nuevos selectores:
+    h1{
+            text-align: center;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+        }
+    -->
+    <!-- Paso 10: Centra todos los textos con 1 solo selector:
+        h1, h2, p{
+            text-align: center;
+        }
+    -->
+    <!-- Paso 11: Crea un archivo css, vinculalo al html y copia lo hecho anteriormente -->
+</head>
+<body>
+
+    <!-- Paso 15: Crea un div con id=Menu envolviendo todo el main -->
+    <div class="menu">
+
+        <!-- Paso 2: Añadir un main -->
+        <main>
+
+            <!-- Paso 3: Añadir un h1 con el texto CAMPER CAFE -->
+            <h1>CAMPER CAFE</h1>
+
+            <!-- Paso 4: Añadir fecha de fundación de la cafetería -->
+            <p class="established">Est. 2023</p>
+
+            <!-- Paso 52: Añade una linea divisoria con hr -->
+            <hr>
+
+            <!-- Paso 5: Crear 1 section -->
+            <section>
+
+                <!-- Paso 6: Crear un h2 que diga Coffee -->
+                <h2>Coffee</h2>
+
+                <!-- Paso 69: Añade una imagen -->
+                <img src="img/coffee.jpg" alt="coffee icon">
+
+                <!-- Paso 22: Añade un article -->
+                <!-- Paso 29: Añade una clase item al article -->
+                <!-- Paso 32: A los demas articles y p añadele sus clases correspondientes como en el primer article -->
+                <article class="item">
+
+                    <!-- Paso 23: Añade dos textos con un tipo de cafe y luego un precio -->
+                    <!-- Paso 25: Agrega una clase flavor al primer p -->
+                    <!-- Paso 27: Agrega una clase price al segundo p-->
+                    <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+
+                </article>
+
+                <!-- Paso 24: Añade mas articles con mas cafes y precios -->
+                <article class="item">
+
+                    <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+
+                </article>
+
+                <article class="item">
+
+                    <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+
+                </article>
+
+                <article class="item">
+
+                    <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+
+                </article>
+
+                <article class="item">
+
+                    <p class="flavor">Mocha</p><p class="price">4.50</p>
+
+                </article>
+
+            </section>
+
+            <!-- Paso 34: Añade otro section para los postres-->
+            <section>
+
+                <!-- Paso 35: Añade un h2 que diga Desserts -->
+                <h2>Desserts</h2>
+
+                <!-- Paso 71: Añade una imagen para los postres -->
+                <img src="img/pie.jpg" alt="pie icon">
+
+                <!-- Paso 36: Añade un article de clase item -->
+                <article class="item">
+
+                    <!-- Paso 37: Añade un postre y su precio con las clases dessert y price -->
+                    <p class="dessert">Donut</p><p class="price">1.50</p>
+
+                </article>
+
+                <!-- Paso 39: Añade mas postres con sus clases correspondientes -->
+                <article class="item">
+
+                    <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+                
+                </article>
+
+                <article class="item">
+
+                    <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+
+                </article>
+
+                <article class="item">
+
+                    <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+
+                </article>
+
+            </section>
+
+        </main>
+
+        <!-- Paso 56: Añade un separador -->
+        <hr class="bottom-line">
+
+        <!-- Paso 49: Añade un pie de página -->
+        <footer>
+
+            <!-- Paso 50: Añade un anchor con un texto -->
+            <p><a href="https://www.freecodecamp.org">Visit our website</a></p>
+
+            <!-- Paso 51: Añade otro p -->
+            <p class="address">123 Free Code Camp Drive</p>
+
+        </footer>
+    </div>
+
+</body>
+</html>

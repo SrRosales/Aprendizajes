@@ -1,0 +1,185 @@
+h1, h2, p{
+    text-align: center;
+}
+
+/*
+Paso 13: Añade un color de fondo a la web marron para el body 
+Paso 14: Cambialo al color burlywood
+Paso 21: Añade una imagen como fondo 
+Paso 44: Cambia el valor de la fuente
+Paso 57: Añade un paddin de 20px
+*/
+
+body{
+    background-image: url(https://img.freepik.com/free-photo/background-roasted-fresh-brown-coffee-beans-perfect-cool-wallpaper_181624-9592.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+/*
+Paso 45: Cambias las fuentes de los h1 y h2
+Paso 46: Añade una fuente de respaldo de tipo serif 
+*/
+
+h1, h2{
+    font-family: Impact, serif;
+}
+
+/*
+Paso 47: Añadele una clase a el texto East. 2023 y cambia el estilo a italic
+*/
+
+.established {
+    font-style: italic;
+}
+
+/*
+Paso 48: Cambia el tamaño de la fuenta de h1 a 40px y de h2 a 30px
+Paso 66: Cambia el margin top a 0px
+Paso 67: Cambia el margin bottom a 15px
+*/
+
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+/*
+Paso 16: Al id menu dale un tamaño de 300px
+Paso 17: Comenta el color del body y añade uno para menu
+Paso 18: Cambia el width a 80%
+Paso 19: Centra el menu con margin-left y right
+Paso 20: Cambia menu de id a una clase 
+Paso 40: Añade padding left y right con 20px
+Paso 41: Añade un padding top y botton de 20px
+Paso 42: Haciendo padding: 20px haces los 4 padding en 1
+Paso 43: Añade un max-with al menu
+*/
+
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+/*
+Paso 26: Alinea el texto p de clase flavor a la derecha
+Paso 31: Añade un width de 49% a flavor y price
+Paso 33: Cambia el width de flavor a 75 y el de price a 25
+Paso 38: Añade la clase dessert al elemento flavor
+*/
+
+.flavor, .dessert{
+    text-align: left;
+    width: 75%;
+}
+
+/*
+Paso 28: Alinea a la izquierda el texto de la clase price
+*/
+
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+/*
+Paso 30: Añade una propiedad display de inline-block a la clase item elemento p
+Paso 58: Añade un padding top y bottom de 5px a los textos p
+Paso 59: Cambia el tamaño del texto a 18px
+*/
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+/*
+Paso 53: Al hr cambiale la altura a 2px
+Paso 54: Añadele un color de fondo brown
+Paso 55: Haz que el color del borde sea igual al color de fondo
+*/
+
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+/*
+Paso 60: En el segundo hr creale una clase y cambia su margin-top
+*/
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+/*
+Paso 61: Al footer cambia el tamaño del texto a 14px
+*/
+
+footer{
+    font-size: 14px;
+}
+
+/*
+Paso 62: Cambia el color del enlace del footer a negro
+*/
+
+a{
+    color: black;
+}
+
+/*
+Paso 63: Agrega al enlace que cambie a color black cuando este ya se ha visitado
+*/
+
+a:visited{
+    color: black;
+}
+
+/*
+Paso 64: Agrega al enlace que cuando se pase por encima del enlace cambie a color brown
+*/
+
+a:hover{
+    color: brown;
+}
+
+/*
+Paso 65: Agrega al enlace que cuando se presione el enlace cambie a color brown
+*/
+
+a:active{
+    color: brown;
+}
+
+/*
+Paso 68: Crea una clase addrres para la calle del bar y dale un margin bottom de 5px
+*/
+
+.address{
+    margin-bottom: 5px;
+}
+
+/*
+Paso 70: Centra la imagen
+Paso 72: Añade un margin top de -25px
+*/
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
